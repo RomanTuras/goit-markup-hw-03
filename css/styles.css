@@ -215,16 +215,16 @@ section {
   overflow: hidden;
 }
 
-.features-list {
+.advantages-list {
   display: flex;
   gap: var(--col-indent);
 }
 
-.features-item {
+.advantages-item {
   width: calc((100% - var(--col-indent) * (var(--items) - 1)) / var(--items));
 }
 
-.features-item .item-title {
+.advantages-item .item-title {
   margin-bottom: 8px;
 }
 
